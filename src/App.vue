@@ -1,6 +1,7 @@
 <template>
   <div class="app">
-      <h1>Vue 2</h1>
+      <h1>Vue 3</h1>
+      <img src="@/icons/icon-384x384.png" alt="">
       <div v-if="!isAuthenticated">
           <div class="phone-input">
               <input type="tel" v-model="phoneNumber" placeholder="Enter phone number" :disabled="isCodeSent" />
