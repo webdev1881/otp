@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-      <h1>Vue 1</h1>
+      <h1>Vue 2</h1>
       <div v-if="!isAuthenticated">
           <div class="phone-input">
               <input type="tel" v-model="phoneNumber" placeholder="Enter phone number" :disabled="isCodeSent" />

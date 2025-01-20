@@ -48,11 +48,11 @@ export default defineConfig({
             sizes: '128x128',
             type: 'image/png'
           },
-          // {
-          //   src: './src/icons/icon-144x144.png',
-          //   sizes: '144x144',
-          //   type: 'image/png'
-          // },
+          {
+            src: './src/icons/icon-144x144.png',
+            sizes: '144x144',
+            type: 'image/png'
+          },
           {
             src: './src/icons/icon-152x152.png',
             sizes: '152x152',
